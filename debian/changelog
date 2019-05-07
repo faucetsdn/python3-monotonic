@@ -1,0 +1,60 @@
+python-monotonic (1.5-0ubuntu1) disco; urgency=medium
+
+  * New upstream release
+
+ -- James Page <james.page@ubuntu.com>  Wed, 14 Nov 2018 15:34:00 +0000
+
+python-monotonic (1.1-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/s/options: extend-diff-ignore of .gitreview
+  * d/control: Using OpenStack's Gerrit as VCS URLs.
+
+  [ Thomas Goirand ]
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 04 Oct 2016 13:35:59 +0200
+
+python-monotonic (1.1-1) experimental; urgency=medium
+
+  [ Ondřej Nový ]
+  * Standards-Version is 3.9.8 now (no change)
+  * d/rules: Changed UPSTREAM_GIT protocol to https
+
+  [ Thomas Goirand ]
+  * New upstream release.
+  * Using pkgos-dh_auto_install from openstack-pkg-tools >= 52~.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 13 Jul 2016 21:59:28 +0200
+
+python-monotonic (0.6-2) unstable; urgency=medium
+
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 04 Apr 2016 08:30:46 +0000
+
+python-monotonic (0.6-1) experimental; urgency=medium
+
+  [ Corey Bryant ]
+  * New upstream release.
+
+  [ Ondřej Nový ]
+  * Fixed VCS URLs (https).
+
+  [ Thomas Goirand ]
+  * Fixed debian/copyright ordering.
+  * Standards-Version: 3.9.7 (no change).
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 02 Mar 2016 10:12:20 +0000
+
+python-monotonic (0.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 02 Sep 2015 21:35:29 +0000
+
+python-monotonic (0.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #789918)
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 25 Jun 2015 10:28:31 +0200
